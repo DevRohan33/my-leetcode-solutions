@@ -1,12 +1,10 @@
 # 🧠 My LeetCode Solutions
 
-> 309+ problems solved in Python & SQL — organized, explained, and continuously updated.
+> Algorithmic practice in Python & SQL — the fundamentals underneath the systems I build.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Problems](https://img.shields.io/badge/Solved-309-brightgreen)
-![Contest Rating](https://img.shields.io/badge/Contest%20Rating-1569-orange)
-![Top](https://img.shields.io/badge/Top-29.04%25-blueviolet)
+![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen)
 
 ---
 
@@ -14,51 +12,31 @@
 
 This repository is my working archive of LeetCode problems — a record of how I approach algorithmic thinking, not just a dump of accepted code.
 
-I'm a **Backend Developer** working with Django, FastAPI, and React. Data structures and algorithms are the layer underneath everything I ship: query optimization, caching strategy, request handling. This repo is where I keep those fundamentals sharp.
+I build backend and AI systems for a living. DSA is the layer underneath all of it: retrieval ranking, deduplication logic, query design, the cost of a lookup inside a hot path. When a RAG pipeline is processing documents on a schedule, the difference between an O(n²) scan and a hash lookup stops being an interview question and becomes a production concern.
 
-Each solution is committed with the language and problem number, so the repo doubles as a searchable reference when I hit a familiar pattern in production work.
-
----
-
-## 📊 Progress
-
-| Difficulty | Solved | Total |
-|:-----------|:-------|:------|
-| 🟢 Easy | 89 | 962 |
-| 🟡 Medium | **184** | 2109 |
-| 🔴 Hard | 36 | 971 |
-| **Total** | **309** | 4042 |
-
-**Contest Rating:** 1569 · **Top 29.04%** globally
-
-> Snapshot — the live count is on my [LeetCode profile](https://leetcode.com/u/rp-/).
+Each solution is committed with its problem number and language, so the repo works as a searchable reference when a familiar pattern shows up in real work.
 
 ---
 
-## 💻 Languages Used
+## 💻 Languages
 
-| Language | Problems |
-|:---------|:---------|
-| Python 3 | 152 |
-| Python | 87 |
-| MySQL | 50 |
-
-Python for algorithmic problems, MySQL for the database track — the SQL work maps directly to backend query design.
+**Python 3** — algorithmic problems, data structures, dynamic programming
+**MySQL** — the database track, which maps directly to schema and query design work
 
 ---
 
 ## 🎯 Topics Covered
 
 **Advanced**
-`Dynamic Programming` ×26 · `Trie` ×8 · `Shortest Path` ×8
+`Dynamic Programming` · `Trie` · `Shortest Path`
 
 **Intermediate**
-`Hash Table` ×59 · `Database` ×50 · `Greedy` ×39
+`Hash Table` · `Database` · `Greedy`
 
 **Fundamental**
-`Array` ×163 · `String` ×77 · `Sorting` ×42
+`Array` · `String` · `Sorting`
 
-The Medium-heavy distribution is deliberate. That's the band where pattern recognition actually gets built — enough complexity to require a real approach, enough volume to make the patterns stick.
+The distribution is Medium-heavy on purpose. That's the band where pattern recognition actually gets built — enough complexity to demand a real approach, enough volume for the patterns to stick.
 
 ---
 
@@ -72,37 +50,55 @@ my-leetcode-solutions/
 └── README.md
 ```
 
-Folders are prefixed with the LeetCode problem ID, so everything stays in numerical order. Use the **Go to file** search (`T`) to jump to any problem directly.
-
----
-
-## 🏅 Milestones
-
-- 🎖️ **9 badges** earned on LeetCode
-- 🔥 **100 Days Badge 2024** — sustained daily practice
-- 📈 Broke into the **top 30%** globally by contest rating
+Folders are prefixed with the LeetCode problem ID, so everything stays in numerical order. Use the **Go to file** search (`T`) to jump straight to any problem.
 
 ---
 
 ## 👨‍💻 About Me
 
-**Rohan Parveag** — Backend Developer at **Design Intelligence LLP**
+**SK Rohan Parveag** — AI Systems Engineer, Kolkata
 
-I started out maintaining solar panels at Adani's facility in Gujarat — not the usual entry point into software. That hands-on engineering background left me with a bias toward systems that work in the real world, not just on paper. I brought that with me when I moved into development.
+I build AI systems that survive contact with production: RAG pipelines, multi-agent and tool-calling agents, and the data infrastructure that feeds them. Currently backend and AI at **Design Intelligence LLP**, where I work across FastAPI services, LangChain/LangGraph agent workflows, and the ETL and storage layers underneath — QuickBase-to-SAP integration, S3/Wasabi asset processing, proxy layers for credential isolation.
 
-Today I build web applications with React, Django, and FastAPI. What makes my stack a little unusual: I also work with **Three.js** and **React Three Fiber**, combining 3D interactivity with production backend systems.
+What I actually care about is system design: taking a loosely defined requirement and turning it into an architecture, then a working product. Deployment is part of owning that end to end rather than the point of it — I ship with Docker, Dokploy, and Vercel, and I'm comfortable with CI/CD and Kubernetes, but I'd rather be the person who can carry a requirement the whole way through than a dedicated deployment engineer.
 
-**My stack**
+Before software I worked as a maintenance engineer on solar plant systems at Adani. Different domain, same instinct: a system either holds up under real conditions or it doesn't.
 
-| Layer | Tools |
-|:------|:------|
-| Frontend | React.js, JavaScript, Three.js, React Three Fiber |
-| Backend | Django, FastAPI |
-| Database | SQL |
-| Cloud | AWS (deployment & services) |
-| Exploring | AI/ML integration in web products |
+---
 
-**Education:** B.Tech in Computer Science — MAKAUT / Elitte College of Engineering (2026)
+## 🛠️ Stack
+
+**AI Systems**
+RAG pipelines (multi-tenant, hybrid retrieval) · Multi-agent & tool-calling agents · LangChain · LangGraph · MCP · Vector DBs (FAISS, Pinecone, Chroma) · LLM integration & evaluation
+
+**Data & Backend**
+Python · FastAPI · Django · Flask · PostgreSQL · MongoDB · Firestore · ETL & pipeline design · Object storage (S3, Wasabi) · Media processing (EXIF, video frame extraction) · REST & proxy API design · QuickBase
+
+**System Design & Delivery**
+System architecture · Docker · Dokploy · VPS administration · Vercel / Cloudflare Pages · GitHub Actions CI/CD · Kubernetes · AWS (EC2, S3, RDS, IAM) · Credential isolation & secrets handling · Production monitoring
+
+**Frontend & 3D**
+React · Next.js · TypeScript · Tailwind · Three.js · React Three Fiber
+
+---
+
+## 🚀 Selected Work
+
+| Project | What it is | Stack |
+|:--------|:-----------|:------|
+| **TechPluse** | Automated newsroom — discovers, deduplicates, summarizes and stores AI research every 24 hours | Python, FastAPI, Brave MCP, PostgreSQL |
+| **MyLedger** | End-to-end product: real-time data architecture, security-rule access control, average-cost inventory logic | Flutter, Firestore, AWS |
+| **AI Workspace** | Multi-tenant RAG support agents, per-employee assistants, automated billing | Django, LangChain, RAG, Docker |
+| **Asset & ERP Pipeline** | QuickBase-to-SAP integration with S3 media pipeline, EXIF geolocation, credential-isolating proxy APIs | FastAPI, S3, Wasabi, Python |
+
+More at [rohanparveag.online/work](https://rohanparveag.online/work)
+
+---
+
+## 🎓 Education
+
+**BTech, Computer Science and Engineering**
+MAKAUT / Elitte College of Engineering · 2023 — 2026
 
 ---
 
@@ -111,12 +107,12 @@ Today I build web applications with React, Django, and FastAPI. What makes my st
 | | |
 |:--|:--|
 | 🌐 Portfolio | [rohanparveag.online](https://rohanparveag.online) |
-| 💼 LinkedIn | [skrohanparveag](https://linkedin.com/in/skrohanparveag) |
+| 💼 LinkedIn | [/in/skrohanparveag](https://linkedin.com/in/skrohanparveag) |
 | 💻 GitHub | [DevRohan33](https://github.com/DevRohan33) |
 | 🧠 LeetCode | [rp-](https://leetcode.com/u/rp-/) |
 | 📩 Email | skrohanparveag@gmail.com |
 
-I'm actively growing my network and open to opportunities where I can contribute from day one. Open to collaboration — I reply to everyone.
+Building something that has to work? I reply to everything, usually within a day.
 
 ---
 
